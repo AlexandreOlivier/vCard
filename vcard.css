@@ -1,0 +1,181 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #88847f;
+	font-size: 18px;
+	line-height: 1.44;
+	margin: 0;
+}
+
+header {
+	/* width: 1200px; */
+	height: 80px;
+	/* margin: 0 auto; */
+	position: relative;
+}
+
+.container {
+	width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------- Background --------*/
+
+.photo-profil {
+    background: url(img/photo-profil.png) no-repeat right center;
+}
+
+
+/* ------- Nav --------*/
+
+.bg__first {
+    background: #171e22;
+    height: 80px;
+}
+
+.bg__second {
+    background: #611717;
+    height: 20px;
+}
+
+.logo {
+	top: 15px;
+	left: 0;
+	margin: 0;
+}
+
+.logo a {
+	background: url(img/logo.jpg) no-repeat;
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+    position: absolute;
+    margin-top: 7px;
+    height: 68px;
+    width: 52px;
+}
+
+.nav {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav__el {
+    float: left;
+    margin-left: 50px;
+}
+
+.nav__el a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 100px;
+    line-height: 80px;
+}
+
+    .nav__el :hover, 
+    .nav__el :focus {
+        background: url(img/soulignement__menu.jpg) repeat-x left 63px;
+		outline: 0;
+    }
+
+.nav__el--actif a {
+    font-weight: bold;
+    opacity: 1;
+    background: url(img/soulignement__menu.jpg) repeat-x left 63px;
+}
+
+
+/* ------- Content --------*/
+
+.container__title {
+    width: 374px;
+    height: 182px;
+}
+
+.titre {
+    margin: 100px auto 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    color: #171e22;
+    margin: 65px auto 40px auto;
+}
+
+.container__text {
+    width: 374px;
+    margin: 0 auto 20px auto;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    color: #171e22;
+}
+
+.text a {
+    font-size: 16px;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    color: #171e22;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.download {
+    text-align: center;
+    width: 374px;
+    margin: 37px auto 65px auto;
+}
+
+.download__btn--link {
+    text-decoration: none;
+    color: #fff;
+    background: #171e22;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: .2;
+}
+
+.download__btn--link:hover,
+.download__btn--link:focus {
+    opacity: .4;
+    transition: 0.2s;
+}
+
+.download__btn {
+    margin: auto;
+}
+
+
+/* ------- footer --------*/
+
+.mention-legal {
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    opacity: .9;
+}
+
+.mention-legal a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.credit {
+    text-align: center;
+    line-height: 80px;
+    background: #171e22;
+}
+
